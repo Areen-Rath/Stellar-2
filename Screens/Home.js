@@ -41,9 +41,8 @@ export default class HomeScreen extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
+        flex: 1,
+        backgroundColor: '#fff'
     },
     droidSafeArea: {
         marginTop: Platform.OS === "android" ? StatusBar.currentHeight : 0
